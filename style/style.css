@@ -1,12 +1,12 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 
-.font-raleway{
+.font-raleway {
     font-family: "Raleway", sans-serif;
 }
-.font-inter{
+
+.font-inter {
     font-family: "Inter", sans-serif;
 }
 
@@ -92,7 +92,13 @@
 
 .dotted-hr {
     border: none;
-    border-top: 0.5px dotted #ccc; /* Color and style of the dots */
-    height: 0.25px; /* Thickness of the line */
-    margin: 0.5px 0; /* Adjust vertical spacing */
-  }
+    border-top: 0.5px dotted #767474;
+    /* Color and style of the dots */
+    height: 0.25px;
+    /* Thickness of the line */
+    margin: 0.5px 0;
+    /* Adjust vertical spacing */
+}
+
+
+/* seat plan style */
