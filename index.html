@@ -66,8 +66,7 @@
                 </ul>
             </div>
             <div class="navbar-end">
-                <a class="btn btn-[#1DD100] text-ticket-primary text-xl font-bold">Bus <img src="images/bus-icon.png"
-                        alt=""></a>
+                <a class="btn btn-[#1DD100] text-ticket-primary text-xl font-bold border border-ticket-primary">Bus <img src="images/bus-icon.png"alt=""></a>
             </div>
         </div>
 
@@ -84,7 +83,7 @@
                         <p class="mb-5 text-lg font-medium font-inter">Yes, you can run unit tests and view the results
                             directly within the app. <br>
                             The integrated testing features allow for a streamlined .</p>
-                        <button class="btn bg-ticket-primary text-black text-xl font-bold font-raleway">Buy
+                        <button class="btn bg-ticket-primary text-black text-xl font-bold font-raleway ">Buy
                             Tickets</button>
                     </div>
                 </div>
@@ -94,7 +93,7 @@
     </header>
 
     <main class="md:container md:mx-auto">
-        <div class="my-10 ">
+        <div class="mt-10 ">
             <h2 class="font-raleway font-bold text-4xl text-center">Best offers for you</h2>
 
             <!-- coupon card -->
@@ -148,6 +147,9 @@
                 </div>
                 
         </div>
+        <div class="flex justify-center items-center h-screen">
+            <a class="btn btn-[#1DD100] text-ticket-primary text-xl font-bold  border border-ticket-primary">See All Offers </a>
+        </div>
 
 
         
@@ -157,10 +159,43 @@
   
     </main>
 
-    <footer>
+    <!-- footer section  -->
 
-    </footer>
+    <footer class="footer p-10 bg-black text-neutral-content">
+        <aside>
+          <h1 class="font-extrabold text-2xl font-raleway">P-Ticket</h1>
+          <p>P-Ticket is a digital platform to make your <br>
+             daily commuting better.</p>
 
+             
+        </aside> 
+        <nav class="grid-flow-row gap-4 md:place-self-center md:justify-self-end">
+          <h6 class="footer-title">Download our app</h6> 
+          <div class="grid grid-flow-row border-2 border-white-600 p-2  rounded-lg">
+            <a class=" flex "><img src="images/playstore.png" alt="">
+                <div class="">
+                    <p class="font-thin">GET IT ON</p>
+                    <h1 class="font-bold text-lg inline-block">GooglePlay</h1>
+                </div>
+            </a>
+            
+          </div>
+        </nav>  
+      </footer>
+
+      <hr class="dotted-hr">
+
+      <footer class="footer items-center p-4 bg-black text-neutral-content">
+        <aside class="items-center grid-flow-col">
+          
+          <p>@all rights reserved, P-Ticket services limited.2024</p>
+        </aside> 
+        <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+          <a><p>Terms & condition</p></a>
+          <a><p>Return & refund policy</p></a>
+          <a><p>Privacy policy</p></a>
+        </nav>
+      </footer>
 </body>
 
 </html>
